@@ -5,7 +5,7 @@ void setup() {
 }
 
  if(mousePressed){
- n=n+random(1-50);
+ n=n+random(50);
  } 
 void draw() {
  fill(random(256),random(256),random(256));
